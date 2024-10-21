@@ -12,17 +12,17 @@
 
 **![][image1]**
 
-# **Introducción** {#introducción}
+# **Introducción** 
 
 	*BIOGENESYS* es una empresa del rubro farmacéutico que busca identificar las ubicaciones óptimas para la expansión de laboratorios farmacéuticos, basándose en el análisis de datos de incidencia de COVID-19, tasas de vacunación, y la disponibilidad de infraestructuras sanitarias. La meta es optimizar la respuesta a los efectos de la pandemia y post pandemia con el fin de mejorar el acceso a las vacunas.
 
-# **Desarrollo del proyecto** {#desarrollo-del-proyecto}
+# **Desarrollo del proyecto** 
 
-## Importación y Preparación de Datos: {#importación-y-preparación-de-datos:}
+## Importación y Preparación de Datos: 
 
  Se trabajó con un conjunto de datos que incluía información sobre la evolución de la pandemia en diversos países latinoamericanos. Estos datos se prepararon cuidadosamente para asegurar su integridad, lo que incluyó la eliminación de valores nulos y anómalos, y la transformación de las variables para su posterior análisis.
 
-## Análisis del Comportamiento de la Pandemia:  {#análisis-del-comportamiento-de-la-pandemia:}
+## Análisis del Comportamiento de la Pandemia:  
 
 El análisis se enfocó en el comportamiento de los casos de COVID-19 a lo largo del tiempo, tanto de forma semanal como anual. Este análisis reveló una tendencia general a la disminución de casos y muertes conforme avanzaba el tiempo, lo que sugiere que las estrategias de control y vacunación han sido efectivas en la región.
 
@@ -30,19 +30,19 @@ El análisis se enfocó en el comportamiento de los casos de COVID-19 a lo largo
 
 Se investigó la relación entre la temperatura promedio y la evolución de los casos de COVID-19. Se observó que, aunque la temperatura ha ido en aumento, los casos han disminuido, especialmente después de picos notables antes de marzo, lo que podría estar vinculado a la efectividad de las campañas de vacunación.
 
-## Urbanización y Densidad Poblacional:  {#urbanización-y-densidad-poblacional:}
+## Urbanización y Densidad Poblacional:  
 
 Se analizó el impacto de la urbanización y la densidad poblacional en la propagación del virus. Chile, con un alto porcentaje de población urbana, mostró una mayor propagación del virus. Este análisis también incluyó la distribución de la población por grupos etarios en países con altas tasas de mortalidad, lo que ayudó a identificar a los grupos más vulnerables.
 
-## Estrategias de Vacunación:  {#estrategias-de-vacunación:}
+## Estrategias de Vacunación: 
 
 Las estrategias de vacunación se compararon entre los países, revelando que Brasil y Colombia son los que más podrían beneficiarse de una intervención debido a su baja tasa de vacunación en relación con su población. Estos hallazgos sugieren que la expansión de los laboratorios en estos países podría tener un impacto significativo en la lucha contra la pandemia.
 
-## Condiciones Preexistentes:  {#condiciones-preexistentes:}
+## Condiciones Preexistentes: 
 
 Se estudió la prevalencia de condiciones de salud preexistentes, como la diabetes y el tabaquismo, en los países con las tasas de mortalidad más altas. Se descubrió que México y Brasil tienen una alta prevalencia de diabetes, mientras que Chile y Argentina presentan mayores tasas de tabaquismo, lo que podría haber contribuido a las altas tasas de mortalidad en estos países.
 
-## Tasa de Letalidad y Reducción de Casos:  {#tasa-de-letalidad-y-reducción-de-casos:}
+## Tasa de Letalidad y Reducción de Casos: 
 
 Se calculó la tasa de letalidad del COVID-19 en cada país, lo que mostró una disminución en la letalidad reciente, posiblemente debido a la efectividad de las vacunas. Además, se analizó la evolución de los casos activos y recuperados, demostrando que los casos activos han disminuido mientras que los recuperados han aumentado, lo que refuerza la importancia de la vacunación.
 
@@ -50,45 +50,42 @@ Se calculó la tasa de letalidad del COVID-19 en cada país, lo que mostró una 
 
 El análisis concluyó con una comparación de la situación actual de los países seleccionados, teniendo en cuenta los casos activos, recuperados y fallecidos. Brasil emergió como el país prioritario para la expansión, debido a su alta cantidad de casos confirmados y muertes, así como a su relativamente baja tasa de vacunación.
 
-# **EDA e insights** {#eda-e-insights}
+# **EDA e insights**
 
-## Exploración de Datos Inicial (EDA):  {#exploración-de-datos-inicial-(eda):}
+## Exploración de Datos Inicial (EDA):  
 
 Para comprender mejor la naturaleza y el comportamiento de los datos relacionados con la pandemia de COVID-19 en América Latina, se realizó un análisis exploratorio exhaustivo. Esta etapa incluyó la revisión de las variables clave como casos confirmados, muertes, recuperados, y dosis de vacunas administradas, así como la relación de estos indicadores con factores demográficos y de salud pública.
 
-## Principales Insights Obtenidos: {#principales-insights-obtenidos:}
-
-* ### **Tendencias Temporales:** {#tendencias-temporales:}
+## Principales Insights Obtenidos: 
+* ### **Tendencias Temporales:** 
 
   * Se observó una clara tendencia decreciente en los casos confirmados y las muertes a lo largo del tiempo, particularmente a partir del segundo trimestre de 2021, lo que coincide con el aumento en la distribución de vacunas.  
   * Los picos significativos en el número de casos antes de marzo de 2021 fueron seguidos por descensos pronunciados, lo que sugiere un impacto positivo de las medidas de vacunación y las políticas de salud pública.
 
-* ### **Impacto de la Urbanización:** {#impacto-de-la-urbanización:}
+* ### **Impacto de la Urbanización:** 
 
   * El análisis reveló que los países con mayor porcentaje de población urbana, como Chile, experimentaron una mayor propagación del virus, lo que subraya la importancia de considerar la densidad poblacional y la urbanización en la planificación de la respuesta a la pandemia.
 
-* ### **Relación entre Temperatura y Casos:** {#relación-entre-temperatura-y-casos:}
-
+* ### **Relación entre Temperatura y Casos:** 
   * La correlación entre el aumento de la temperatura promedio y la disminución de casos sugiere que, aunque la temperatura podría tener algún efecto, las intervenciones como la vacunación son los factores más determinantes en la reducción de casos.
 
-* ### **Distribución Etaria y Mortalidad:** {#distribución-etaria-y-mortalidad:}
+* ### **Distribución Etaria y Mortalidad:** 
 
   * En los países con las tasas de mortalidad más altas, se identificó una mayor concentración de población en grupos etarios vulnerables (mayores de 60 años), lo que podría haber contribuido a las altas tasas de fallecimientos.  
   * La prevalencia de comorbilidades, como la diabetes en México y Brasil, y el tabaquismo en Chile y Argentina, fue notablemente alta en estos países, lo que podría explicar en parte las diferencias en la letalidad del virus.
 
-* ### **Estrategias de Vacunación:** {#estrategias-de-vacunación:-1}
-
+* ### **Estrategias de Vacunación:** 
   * Brasil y Colombia mostraron una menor cobertura de vacunación relativa a su población, lo que sugiere la necesidad de reforzar las campañas de vacunación en estos países. Estos hallazgos fueron críticos para determinar los lugares más estratégicos para la expansión de los laboratorios de BIOGENESYS.
 
-* ### **Tasa de Letalidad:** {#tasa-de-letalidad:}
+* ### **Tasa de Letalidad:** 
 
   * Se observó una reducción reciente en la tasa de letalidad en la mayoría de los países, lo que indica el impacto positivo de las vacunas y otros esfuerzos de mitigación. Sin embargo, Brasil continúa con una tasa de letalidad relativamente alta, lo que lo convierte en un foco prioritario para intervención.
 
 # 
 
-# **Análisis del dashboard** {#análisis-del-dashboard}
+# **Análisis del dashboard** 
 
-## Página 1: Portada {#página-1:-portada}
+## Página 1: Portada 
 
 Portada principal del informe. Esta página sirve como punto de entrada para los usuarios, proporcionando una visión general y facilitando la navegación hacia otras secciones del dashboard.
 
