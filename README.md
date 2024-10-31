@@ -7,6 +7,9 @@
 **Institución**: BIOGENESYS  
 **Fecha de Entrega**: 23/08/2024
 
+[![Captura-de-pantalla-2024-10-31-184226.png](https://i.postimg.cc/nrQBkkpn/Captura-de-pantalla-2024-10-31-184226.png)](https://postimg.cc/2Lr1jn1t)
+
+
 ---
 
 ## Índice
